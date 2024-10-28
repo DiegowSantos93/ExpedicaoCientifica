@@ -1,6 +1,7 @@
 import Expedition from "../models/expedition-model.js";
 import Explorer from "../models/explorer-model.js"; 
 import Species from "../models/species-model.js";  
+
 const store = async (req, res) => {
     try {
         const { participants, speciesFound } = req.body; 
